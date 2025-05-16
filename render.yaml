@@ -1,0 +1,8 @@
+
+services:
+  - type: web
+    name: gpts-api-relay
+    env: python
+    buildCommand: ""
+    startCommand: "python server.py"
+    plan: free
